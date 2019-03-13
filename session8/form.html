@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <form action="formprocess.php" method="POST">
+       first name :
+       <input type="text" name="firstname">
+       <br>
+       last name:
+       <input type="text" name="family">
+  <br>
+       religion:
+       <br>
+       <input type="radio" name="religion" value="islam" checked > اسلام
+       <br>
+       <input type="radio" name="religion" value="christianity"> مسیحیت
+      <br>
+      favorites:
+      <br>
+      <input type="checkbox" name="favorites[]" value="music"> موسیقی
+      <br>
+      <input type="checkbox" name="favorites[]" value="movie"> فیلم
+      <br>
+      <input type="checkbox" name="favorites[]" value="sport"> ورزش
+      <br>
+      country:
+      <select name="country" >
+          <option value="iran"> ایران</option>
+          <option value="iraq"> عراق</option>
+          <option value="turkey"> ترکیه</option>
+      </select>
+      <br>
+      your message:
+      <br>
+      <textarea name="message" id="" cols="30" rows="10">
+
+      </textarea>
+      <br>
+      <input type="submit" value="send">
+   </form> 
+</body>
+</html>
